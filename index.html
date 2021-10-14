@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <main>
+      <!--HEADER-->
+      <div class="header">
+        <!--TOP-->
+        <div class="header__top">
+          <!--LOGO-->
+          <div class="header__top--logo">
+            <img src="img/logo.svg" alt="logo" />
+          </div>
+
+          <!--NAVIGATION DESKTOP-->
+          <nav class="header__nav">
+            <ul class="header__nav--list">
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">About</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Careers</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Events</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Products</a>
+              </li>
+              <li class="header__nav--item">
+                <a href="#" class="header__nav--link">Support</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!--NAVIGATION MOBILE-->
+          <!--ICONS-->
+          <div class="mobNavHam">
+            <img src="img/icon-hamburger.svg" alt="hamb" class="mobNav__img" />
+          </div>
+
+          <div class="mobNavX">
+            <img src="img/icon-close.svg" alt="hamb" class="mobNav__img2" />
+          </div>
+
+          <div class="mobLogo">
+            <img src="img/logo.svg" alt="logoM" />
+          </div>
+
+          <!--MENU-->
+          <div class="mobMenu">
+            <ul class="mobMenu__list">
+              <li class="mobMenu__item">
+                <a href="#" class="mobMenu__link">About</a>
+              </li>
+              <li class="mobMenu__item">
+                <a href="#" class="mobMenu__link">Careers</a>
+              </li>
+              <li class="mobMenu__item">
+                <a href="#" class="mobMenu__link">Events</a>
+              </li>
+              <li class="mobMenu__item">
+                <a href="#" class="mobMenu__link">Products</a>
+              </li>
+              <li class="mobMenu__item">
+                <a href="#" class="mobMenu__link">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--HEADING-->
+        <h1 class="header__heading">Immersive experiences that deliver</h1>
+      </div>
+
+      <!--SECTION 1-->
+      <div class="section-1">
+        <div class="section-1__imgDesc">
+          <img src="img/desktop/image-interactive.jpg" alt="interactive" />
+        </div>
+
+        <div class="section-1__imgMob">
+          <img
+            src="img/mobile/image-interactive.jpg"
+            alt="interactive"
+            class="section-1__imgMob--img"
+          />
+        </div>
+
+        <div class="section-1__text">
+          <h2 class="section-1__text--heading">The leader in interactive VR</h2>
+          <p class="section-1__text--info">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+
+      <!--SECTION 2-->
+      <div class="section-2">
+        <div class="section-2__top">
+          <h3 class="section-2__top--heading">Our creations</h3>
+          <button class="cta">See all</button>
+        </div>
+
+        <!--GRID COMPONENT DT-->
+        <div class="section-2__component">
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-deep-earth.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+              data-x="deep"
+            />
+            <figcaption class="section-2__component--info" id="deep">
+              Deep earth
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-night-arcade.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Night arcade
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-soccer-team.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Soccer team VR
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-grid.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              The <br />
+              grid
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-from-above.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              From up above VR
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-pocket-borealis.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Pocket borealis
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-curiosity.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              The curiosity
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/desktop/image-fisheye.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Make it fisheye
+            </figcaption>
+          </figure>
+        </div>
+
+        <!--GRID COMPONENT MB-->
+        <div class="section-2__componentMB">
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-deep-earth.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+              data-x="deep"
+            />
+            <figcaption class="section-2__component--info" id="deep">
+              Deep earth
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-night-arcade.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Night arcade
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-soccer-team.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Soccer team VR
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-grid.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              The <br />
+              grid
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-from-above.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              From up above VR
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-pocket-borealis.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Pocket borealis
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-curiosity.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              The curiosity
+            </figcaption>
+          </figure>
+          <figure class="section-2__component--photo">
+            <img
+              src="img/mobile/image-fisheye.jpg"
+              alt="earth"
+              class="section-2__component--imgs"
+            />
+            <figcaption class="section-2__component--info">
+              Make it fisheye
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!--SECTION 3-->
+      <div class="section-3">
+        <!--TOP-->
+        <div class="section-3__top">
+          <div class="section-3__logo">
+            <img src="img/logo.svg" alt="logo" />
+          </div>
+
+          <div class="section-3__socials">
+            <ul class="section-3__socials--list">
+              <li class="section-3__socials--item">
+                <img
+                  src="img/icon-facebook.svg"
+                  alt="fb"
+                  class="section-3__socials--imgs"
+                />
+              </li>
+              <li class="section-3__socials--item">
+                <img
+                  src="img/icon-twitter.svg"
+                  alt="tw"
+                  class="section-3__socials--imgs"
+                />
+              </li>
+              <li class="section-3__socials--item">
+                <img
+                  src="img/icon-pinterest.svg"
+                  alt="pt"
+                  class="section-3__socials--imgs"
+                />
+              </li>
+              <li class="section-3__socials--item">
+                <img
+                  src="img/icon-instagram.svg"
+                  alt="ig"
+                  class="section-3__socials--imgs"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--BOTTOM-->
+        <div class="section-3__bot">
+          <!--NAVIGATION-->
+          <nav class="header__nav bot__nav">
+            <ul class="header__nav--list bot__list">
+              <li class="header__nav--item bot__item">
+                <a href="#" class="header__nav--link">About</a>
+              </li>
+              <li class="header__nav--item bot__item">
+                <a href="#" class="header__nav--link">Careers</a>
+              </li>
+              <li class="header__nav--item bot__item">
+                <a href="#" class="header__nav--link">Events</a>
+              </li>
+              <li class="header__nav--item bot__item">
+                <a href="#" class="header__nav--link">Products</a>
+              </li>
+              <li class="header__nav--item bot__item">
+                <a href="#" class="header__nav--link">Support</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!--COPY-->
+          <p class="section-3__bot--copy">
+            © 2021 Loopstudios. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+:root {
+  --color-primary-dark-gray: hsl(0, 0%, 55%);
+  --color-primary-very-dark-gray: hsl(0, 0%, 41%);
+
+  --font-family-1: "Alata", sans-serif;
+  --font-family-2: "Josefin Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family-1);
+
+  height: 100%;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow-x: hidden;
+}
+main {
+  height: 100%;
+  width: 144rem;
+
+  @media (max-width: 1400px) {
+    width: 375px;
+
+    overflow-x: hidden;
+  }
+}
